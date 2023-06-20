@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    padding-top: 100px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.container{
+    text-align: center;
+    
+}
+.saven{
+    padding: 30px;
+}
+.container > h2 {
+    color: rgba(3, 6, 77, 1);
+    
+
+}
+.container > P {
+    color:rgba(173, 0, 0, 1);
+
+}
+#sel{
+    width: 250px;
+    padding: 10px;
+    background-color: rgba(3, 6, 77, 1);
+    color: white;
+    margin-top: 30px;
+    font-size: 17px;
+}
+.elli{
+    display: flex;
+    justify-content: center;
+    margin-top: 190px;
+    
+}
+.elli-item{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+.sis{
+    font-size: 40px;
+    color: rgb(164, 161, 161);
+    margin-left: 80px;
+}
+.next{
+    width: 80px;
+    padding: 10px 10px;
+    background-color: rgba(173, 0, 0, 1);
+    color: white;
+    border: none;
+}
