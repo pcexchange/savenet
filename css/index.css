@@ -4,8 +4,28 @@
 }
 
 body{
-    padding: 300px 50px;
     margin: auto;
     width: fit-content;
-    
+    padding: 8px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90vh;
+    max-width: 500px;
+}
+
+.secondbutton {
+    padding: 7px 25px;
+    background: #AD0000;
+    /* mix-blend-mode: normal; */
+    width: fit-content;
+    margin-left: auto;
+}
+
+.sign{
+    color: white;
+    text-decoration: none;
 }

@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: right;
+    padding-right: 40px;
+    padding-top: 40px;
+
+}
+
+select {
+    color: #AD0000;
+    border: none;
+
+}
+
+.container {
+    margin-top: 200px;
+    text-align: center;
+    color: #03064D;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.subcon {
+    text-align: center;
+    color: #03064D;
+}
+
+.firstbutton {
+    padding: 7px 30px;
+    background: #03064D;
+    mix-blend-mode: normal;
+    border-radius: 10px;
+
+
+
+}
+
+.learn {
+    color: white;
+    text-decoration: none;
+}
+
+.secondbutton {
+    padding: 7px 30px;
+    background: white;
+    mix-blend-mode: normal;
+    border-radius: 10px;
+    border: none;
+
+
+}
+
+.sign {
+    color: #03064D;
+    text-decoration: none;
+}
+
+.but {
+    text-align: center;
+    margin-top: 100px;
+}
+
+@media screen and (max-width:425px) {
+    .container {
+        font-size:10px;
+    }
+}
